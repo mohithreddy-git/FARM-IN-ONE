@@ -1,0 +1,19 @@
+{
+  "name": "farm-in-one-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server exposing Farm-in-One agricultural data tools to AI agents",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "tsx index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
